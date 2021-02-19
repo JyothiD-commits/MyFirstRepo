@@ -1,0 +1,10 @@
+From Dev Karlekar to Everyone:  09:02 PM
+General Syntax – Xpath ->//Tagname[@attribute=’value’] || CSS -> Tagname[attribute=’value’]
+css – tagname#attribute-value (input#username) in SF) || #attribute-value || tagname.attribute-value
+css – [@class=’username’]  or [#username]  or .class-value or div#error.loginerror (SF login error msg)
+driver.findElement(By.cssSelector(“[@class=’username’] ”))  cssSelector(“.value”) cssSelector("#value ")
+xpath - //input[@value=’Log In’]  //input[@type='submit’], //input[contains(@name,'procee’)] in Rediff
+//<tagname>[@id=’value’] or/and //*[@id=’value’]  * indicate any tag
+/html[1]/body[1]/div[1]/footer[1]/p[2]//child::a -> http://cafetownsend-angular-rails.herokuapp.com/login
+//div[@class='fsl fwb fcb']/following-sibling::div[1], //div[@class='fsl fwb fcb’]/previous-sibling::div[1]
+
